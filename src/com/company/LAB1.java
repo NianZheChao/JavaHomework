@@ -151,7 +151,7 @@ public class LAB1 {
         int ISBN = input.nextInt(), res = 0, temp = 9;
         int I = ISBN;
         System.out.println(I);
-        //todo: the begin zero input process
+        //todo: the begin zero input processing
         for (int i = 0; i < 9; i++) {
             res += ISBN % 10 * temp;
             ISBN /= 10;
