@@ -1,7 +1,5 @@
 package com.company;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
