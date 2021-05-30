@@ -239,7 +239,7 @@ public class LAB6 {
     }
 
     public void LAB6_17() {
-        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> list = new ArrayList<>();
         Scanner input = new Scanner(System.in);
 
         System.out.print("enter an integer m: ");
