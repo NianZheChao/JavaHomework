@@ -77,6 +77,8 @@ public class Review {
         //java ClassName > output.txt
         //同时使用
         //java ClassName <input.txt> output.txt
+        //向main方法传递字符串：
+        //java TestMain arg0 arg1 arg2
 
         //do-while循环
         /*
@@ -93,10 +95,41 @@ public class Review {
         //while和for称为前测循环
         //do-while称为后测循环
 
+        //方法
+        //定义方法：修饰符 返回值类型 方法名(参数列表){方法体}
+        //重载方法：拥有相同方法名 不同函数签名（即参数列表内容）的方法，在调用时编译器会依据函数签名选择适当的方法进行调用
+        //重载方法出现歧义调用时会产生编译错误
+
+        //数组
+        //声明数组：elementType[] arrayRefVar;
+        //创建数组：arrayRefVar = new elementType[arraySize];
+        //同时声明和创建：elementType[] arrayRefVar = new elementType[arraySize];
+        //数组初始化：elementType[] arrayRefVar = {val1, val2, ..., valk};
+        //在数组使用foreach循环：for(elementType element: arrayRefVar){}
+
+        //数组的复制：
+        //使用如list2 = list1的方法会使得list2原内存被虚拟机当成垃圾回收
+        //可以使用 1.循环语句 2.System.arraycopy方法 3.clone方法
+        //数组传递给方法：
+        //方法参数列表：function(int[] array)
+        //在方法中调用：function(new int[]{1, 2, 3, 4}) 或 function(array)
+        //在方法中改变数组内容 方法外的数组内容随之改变
+        //从方法中返回数组：public static int[] functionName(){return result;}
+
+        //Arrays类：包括sort() binarySearch() equals() fill() toString()等方法
+
+        //可变长参数列表：typeName... parameterName 该列表以数组方式传递进方法 该参数必须位于参数列表尾且只能有一个
+
+        //多维数组
+        //声明：elementType[][] arrayName
+    }
+    class OOP{
 
     }
 
     public static void main(String[] args) {
+        System.out.println("test");
+
         System.out.println(System.currentTimeMillis());
     }
 }
